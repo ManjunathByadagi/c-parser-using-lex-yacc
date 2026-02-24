@@ -1,4 +1,4 @@
-int a, ;
+int a, b;
 
 if (a < b)
 {
