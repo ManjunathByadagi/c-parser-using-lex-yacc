@@ -12,6 +12,24 @@ This project implements a syntax validator for a simplified subset of the C lang
 
 
 
+\## Project Structure
+
+
+
+c-parser-using-lex-yacc/
+
+│
+
+├── lexer.l        # Lexical analyzer (Flex)
+
+├── parser.y       # Syntax analyzer (Bison)
+
+├── input.c        # Sample test input
+
+├── README.md      # Project documentation
+
+
+
 \## Features Supported
 
 
@@ -55,4 +73,12 @@ parser < input.c
 \- On success: Syntax valid.
 
 \- On failure: Syntax error at line X
+
+
+
+\## Sample Execution Screenshot
+
+
+
+!\[Parser Output](output.png)
 
